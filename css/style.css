@@ -5,26 +5,41 @@
     box-sizing: border-box;
 }
 /* /RESET */
-
 /* COMAND */
 html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
 }
 body{
-    background-color: #d3d3d3;
+    background-color: #ccc7c7
 }
-.contained{
-    padding: 30px; 
-}
-.list_item{
-    line-height: 30px;
-    list-style-type: none;
-}
+/* /COMAND */
+/* UTILITY */
 .bg{
     background-color: #ffffff;
 }
-/* /COMAND */
+ .entity{
+    display: inline-block;
+    line-height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid;
+    margin-right: 15px;
+ }
+ .simbol{
+    display: inline-block;
+    margin-right: 5px;
+ }
+ .right{
+    color: #008000;
+    border-color: #008000;
+}
+.cross{
+    color: #ff0000;
+    border-color: #ff0000;
+}
+/* /UTILITY */
 
 /* HEADER */
 #tobolist{
@@ -63,7 +78,7 @@ header{
     width: 6rem;
     border: 2px #d3d3d3 solid;
     border-radius: 10%;
-    
+
 }
 .div_main {
     line-height: 50px;
@@ -71,4 +86,13 @@ header{
     border-bottom:  1px #d3d3d3 solid;
 }
 /* /sectio1 */
+/* section2 */
+.contained{
+    padding: 30px;
+}
+.list_item{
+    line-height: 30px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
 /* /MAIN */
