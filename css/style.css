@@ -11,6 +11,19 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
 }
+body{
+    background-color: #d3d3d3;
+}
+.contained{
+    padding: 30px; 
+}
+.list_item{
+    line-height: 30px;
+    list-style-type: none;
+}
+.bg{
+    background-color: #ffffff;
+}
 /* /COMAND */
 
 /* HEADER */
@@ -28,3 +41,34 @@ header{
     padding: 10px;
 }
 /* /HEADER */
+/* MAIN */
+/* section1 */
+.container{
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+#main_button1{
+    background-color: #0099ff;
+    width: 5rem;
+    height: 2rem;
+    border-style: none;
+    border-radius: 10%;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+#main_button2{
+    color: #d3d3d3;
+    height: 2rem;
+    width: 6rem;
+    border: 2px #d3d3d3 solid;
+    border-radius: 10%;
+    
+}
+.div_main {
+    line-height: 50px;
+    height: 50px;
+    border-bottom:  1px #d3d3d3 solid;
+}
+/* /sectio1 */
+/* /MAIN */
