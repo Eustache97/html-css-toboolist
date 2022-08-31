@@ -11,7 +11,7 @@ html{
     font-size: 1rem;
 }
 body{
-    background-color: #ccc7c7
+    background-color: #eeebeb
 }
 /* /COMAND */
 /* UTILITY */
@@ -35,9 +35,18 @@ body{
     color: #008000;
     border-color: #008000;
 }
-.cross{
+.wrong{
     color: #ff0000;
     border-color: #ff0000;
+}
+.block{
+    display: inline-block;
+    line-height: 1.5rem;
+    width: 60px;
+    font-size: 0.7rem;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
 }
 /* /UTILITY */
 
@@ -65,10 +74,11 @@ header{
 }
 #main_button1{
     background-color: #0099ff;
+    color: #ffffff;
     width: 5rem;
     height: 2rem;
     border-style: none;
-    border-radius: 10%;
+    border-radius: 10px;
     margin-left: 30px;
     vertical-align: middle;
 }
@@ -77,22 +87,41 @@ header{
     height: 2rem;
     width: 6rem;
     border: 2px #d3d3d3 solid;
-    border-radius: 10%;
+    border-radius: 10px;
 
 }
-.div_main {
+main .div_main {
     line-height: 50px;
     height: 50px;
     border-bottom:  1px #d3d3d3 solid;
 }
-/* /sectio1 */
+/* /section1 */
 /* section2 */
 .contained{
     padding: 30px;
 }
-.list_item{
-    line-height: 30px;
+ main .list_item{
+    line-height: 35px;
     list-style-type: none;
     margin-bottom: 20px;
 }
+.editorial{
+    background-color: #0099ff;
+}
+.q1goals{
+    background-color: #682368;
+}
+.recruiting{
+    background-color: #00ffff;
+}
+.mobile{
+    background-color: #ffa500;
+}
+.website{
+    background-color: #ee41ee;
+}
+.sales{
+    background-color: #67b367;
+}
+/* /section2 */
 /* /MAIN */
